@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1-bullseye
 ENV TERRAFORM_VERSION=0.12.29
 RUN apt-get update && apt-get install unzip \
     && curl -Os https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip \
