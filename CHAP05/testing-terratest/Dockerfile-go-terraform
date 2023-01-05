@@ -1,4 +1,4 @@
-FROM golang:1.14.3
+FROM golang:1.20rc2
 
 # Define environment variables
 ARG TERRAFORM_VERSION="0.12.29"
